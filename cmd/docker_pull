@@ -82,7 +82,7 @@ printf "%s\n" "$@" > "$IMAGES_DIR/images.txt"
 # Execute git operations
 echo "[commit images] Start git operation:"
 pushd "$IMAGES_DIR" > /dev/null
-git pull
+git pull --rebase
 git add images.txt
 git commit -m "refactor: add docker tags: $*"
 git push

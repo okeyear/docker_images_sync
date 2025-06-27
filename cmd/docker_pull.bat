@@ -83,7 +83,7 @@ echo [record images] Writing tags to !IMAGES_DIR!\images.txt
 :: 执行git操作
 echo [commit images] Start git operation: 
 pushd "!IMAGES_DIR!"
-git pull
+git pull --rebase
 git add images.txt
 git commit -m "refactor: add docker tags: %*"
 git push
