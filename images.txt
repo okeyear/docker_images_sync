@@ -1,1 +1,1 @@
-alpine
+ghcr.io/sky22333/hubproxy
