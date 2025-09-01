@@ -1,1 +1,1 @@
-kicbase/stable
+gcr.io/k8s-minikube/kicbase
